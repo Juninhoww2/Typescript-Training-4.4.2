@@ -1,3 +1,9 @@
+
+
+function exemplo() {
+
+}
+
 function BemVindo(x: string[] | string) {
    if (Array.isArray(x)) {
          console.log("Ola, " + x.join(" and "));
@@ -5,6 +11,7 @@ function BemVindo(x: string[] | string) {
           console.log("Bem vindo " + x);
    }
 }
+
 
 function BemVindoo(y: number[] | string) {
    if (Array.isArray(y)) {
@@ -22,6 +29,10 @@ function getSecond(y: number[] | string) {
   return y.slice(0, 4); 
 }
 
+let nameString = "Dog"; 
+nameString = "cachorro";
+nameString;
+
 
 let mudarString = "Ola mundo!!!";
 mudarString = "ola mundo!!";
@@ -32,3 +43,4 @@ const constantString = "Hello World!!!";
 constantString;
 
 console.log(mudarString);
+console.log(nameString);

@@ -1,3 +1,5 @@
+function exemplo() {
+}
 function BemVindo(x) {
     if (Array.isArray(x)) {
         console.log("Ola, " + x.join(" and "));
@@ -20,9 +22,13 @@ function getPrimeiro(x) {
 function getSecond(y) {
     return y.slice(0, 4);
 }
+var nameString = "Dog";
+nameString = "cachorro";
+nameString;
 var mudarString = "Ola mundo!!!";
 mudarString = "ola mundo!!";
 mudarString;
 var constantString = "Hello World!!!";
 constantString;
 console.log(mudarString);
+console.log(nameString);
