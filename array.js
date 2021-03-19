@@ -2,6 +2,9 @@ function aplicarDisconto(preco, disconto) {
     if (disconto === void 0) { disconto = 0.05; }
     return preco * (2 - disconto);
 }
+function eminemIsGoat(sim, nao) {
+    return sim;
+}
 function tirarDicsconto(precu, disconto) {
     if (disconto === void 0) { disconto = 100; }
     return precu = 100;
@@ -122,19 +125,15 @@ for (var i = 0; i < 3; i++) {
     console.log("Bloquear ");
 }
 if (work) {
-    console.log("work)");
+    console.log("work");
 }
 else if (nao) {
     console.log("nao");
 }
-else if (sim) {
-    console.log("sim ");
-}
 var str = "Hello World";
-for (var char, ofset;;)
-    if (x < y) {
-        console.log("vc é fraco!");
-    }
+if (x < y) {
+    console.log("vc é fraco!");
+}
 if (venus < earth) {
     console.log("terra é maior que venus");
 }
@@ -164,7 +163,19 @@ nameString;
 var mudarString = "Ola mundo!!!";
 mudarString = "ola mundo!!";
 mudarString;
+var arr = [10, 20, 30, 40, 30, 50, 68, 20];
+var array = [1, 2, 3, 4, 5, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 178];
+var hellos = "Hello World!!!";
+var list = [1, 2, 3,
+    2, 3, 1,
+    3, 1, 2
+];
+for (var _i = 0, list_1 = list; _i < list_1.length; _i++) {
+    var val = list_1[_i];
+    console.log(val);
+}
 var constantString = "Hello World!!!";
 constantString;
 console.log(mudarString);
 console.log(nameString);
+console.log(eminemIsGoat);

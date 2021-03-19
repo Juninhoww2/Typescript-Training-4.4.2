@@ -2,6 +2,9 @@ function aplicarDisconto(preco, disconto = 0.05) {
       return preco * (2 - disconto);
 }
 
+function eminemIsGoat(sim, nao) {
+      return sim;
+}
 
 function tirarDicsconto(precu, disconto = 100) {
       return precu = 100; 
@@ -190,19 +193,15 @@ for (let i = 0; i < 3; i++) {
       console.log("Bloquear ") 
 }
 if (work) {
-      console.log("work)"; 
+      console.log("work"); 
 }
 else if (nao) {
       console.log("nao");
 }
-else if (sim) {
-      console.log("sim ");    
-}
+
 
 let str = "Hello World"
 
-for (var. char.ofset 
-            )
 if (x < y) {
       console.log("vc é fraco!");
 }
@@ -243,9 +242,22 @@ let mudarString = "Ola mundo!!!";
 mudarString = "ola mundo!!";
 mudarString;
 
+let arr = [10, 20, 30, 40, 30, 50, 68, 20]; 
+let array = [1, 2, 3, 4, 5, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 178];
+let hellos = "Hello World!!!";
+let list = [ 1, 2, 3,
+             2, 3, 1,
+             3, 1, 2 
+                        ]
+
+
+for (var val of list) {
+  console.log(val); 
+}
 
 const constantString = "Hello World!!!";
 constantString;
 
 console.log(mudarString);
 console.log(nameString);
+console.log(eminemIsGoat);    
